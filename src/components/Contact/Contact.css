@@ -1,0 +1,45 @@
+.inputs-contact
+{
+	display: grid;
+	grid-template-columns: 100%;
+}
+.contact-section
+{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.contact-form
+{
+	padding: 20px 10px;
+	box-shadow: 1px 1px 10px rgb(99, 99, 99);
+}
+
+textarea
+{
+	resize: vertical;
+	min-height: 100px;
+	padding: 10px;
+	font-size: 20px;
+
+}
+
+textarea {
+    font-size: 20px;
+    padding: 8px 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(164, 162, 162);
+    transition: outline 200ms linear;
+}
+textarea:focus {
+    outline: 4px solid rgba(13, 129, 230, 0.516);
+}
+
+/* .contact-section
+{
+	text-align: center;
+} */
+
+.contact-img-sec
+{
+	text-align: center;
+}
